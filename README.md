@@ -5,7 +5,7 @@
 - Każda linia musi zawierać nazwę operatora (add, multiply, divide, subtract, apply) i tylko jedną liczbę. Muszą one być oddzielone spacją.
 - Aby dodać nową operację nalezy stworzyc nową klasę implementującą interfejs Operation i oznaczyć ją adnotacją @Operator
  # Uruchomienie aplikacji
-Do uruchomienia aplikacji potrzebny jest zainstalowany Maven 4 oraz Java w wersji 8. Następnie z głownego katalogu aplikacji należy uruchomić komendę 'mvn package'. Następnie z katalogu /target należy uruchomić polecenie java -jar storware-1.0-SNAPSHOT.jar "<nazwa pliku>" , gdzie nazwa pliku to ścieżka do pliku zawierającego instrukcje dla kalkulatora.
+Do uruchomienia aplikacji potrzebny jest zainstalowany Maven 4 oraz Java w wersji 8. Następnie z głownego katalogu aplikacji należy uruchomić komendę 'mvn package'. Następnie z katalogu /target należy uruchomić polecenie java -jar storware-1.0-SNAPSHOT.jar "nazwa pliku" , gdzie nazwa pliku to ścieżka do pliku zawierającego instrukcje dla kalkulatora.
 
 # Zewnętrzne biblioteki
  - Lombok 1.18
